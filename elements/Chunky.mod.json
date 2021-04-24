@@ -1,0 +1,87 @@
+{
+  "_fv": 17,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "solarus_ru",
+    "customModelName": "Normal",
+    "name": "Solarus",
+    "specialInfo": [
+      "the sowrf"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2,
+    "enchantability": 20,
+    "damageVsEntity": 6.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PINK_BED"
+      },
+      {
+        "value": "Blocks.BED"
+      },
+      {
+        "value": "Blocks.ORANGE_BED"
+      },
+      {
+        "value": "Blocks.MAGENTA_BED"
+      },
+      {
+        "value": "Blocks.LIGHT_BLUE_BED"
+      },
+      {
+        "value": "Blocks.YELLOW_BED"
+      },
+      {
+        "value": "Blocks.LIME_BED"
+      },
+      {
+        "value": "Blocks.PINK_BED"
+      },
+      {
+        "value": "Blocks.GRAY_BED"
+      },
+      {
+        "value": "Blocks.LIGHT_GRAY_BED"
+      },
+      {
+        "value": "Blocks.CYAN_BED"
+      },
+      {
+        "value": "Blocks.PURPLE_BED"
+      },
+      {
+        "value": "Blocks.BLUE_BED"
+      },
+      {
+        "value": "Blocks.BROWN_BED"
+      },
+      {
+        "value": "Blocks.GREEN_BED"
+      },
+      {
+        "value": "Blocks.RED_BED"
+      },
+      {
+        "value": "Blocks.BLACK_BED"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ChunkySmack"
+    },
+    "onItemInUseTick": {
+      "name": "ChunkyToolInHandTick"
+    }
+  }
+}
